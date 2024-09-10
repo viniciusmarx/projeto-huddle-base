@@ -1,0 +1,56 @@
+@media(max-width:1400px) {
+
+    body {
+        background-size: auto;
+    }
+
+    .content-section .title,
+    .content-section .text {
+        width: 100%;
+    }
+
+    button {
+        width: 140px;
+    }
+}
+
+@media(max-width:960px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container img {
+        max-width: 400px;
+        margin: 0 30px;
+    }
+
+    .content-section {
+        position: fixed;
+        max-width: 400px;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        left: 0;
+    }
+
+    .fa-facebook-f,
+    .fa-twitter,
+    .fa-instagram {
+        min-width: 30px;
+        min-height: 30px;
+        font-size: 40px;
+    }
+}
