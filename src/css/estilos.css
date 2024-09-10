@@ -1,0 +1,77 @@
+body {
+    background: hsl(257, 40%, 49%) url("../images/bg-desktop.svg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header {
+    height: 150px;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 25px;
+    max-width: 500px;
+    font-family: 'Open sans', sans-serif;
+    position: relative;
+    bottom: 80px;
+}
+
+.content-section h1 {
+    font-size: 35px;
+}
+
+.content-section .text {
+    font-size: 16px;
+}
+
+button {
+    width: 40%;
+    height: 53px;
+    border-radius: 30px;
+    color: #674baf;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+button:active {
+    background-color: #e882e8;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+
+    margin-right: 100px;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+    color: #fff;
+    font-size: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.fa-facebook-f:active,
+.fa-twitter:active,
+.fa-instagram:active {
+    border-color: #e882e8;
+    color: #e882e8;
+}
