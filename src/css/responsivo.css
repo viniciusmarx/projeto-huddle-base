@@ -42,15 +42,8 @@
     .footer {
         display: flex;
         justify-content: center;
-        position: fixed;
-        left: 0;
+        position: static;
+        margin: 0;
     }
 
-    .fa-facebook-f,
-    .fa-twitter,
-    .fa-instagram {
-        min-width: 30px;
-        min-height: 30px;
-        font-size: 40px;
-    }
 }
