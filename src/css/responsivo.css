@@ -19,6 +19,8 @@
     body {
         display: flex;
         flex-direction: column;
+        background-image: url("../images/bg-mobile.svg");
+        background-size: cover;
     }
 
     .container {
