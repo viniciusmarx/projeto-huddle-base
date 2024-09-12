@@ -67,14 +67,12 @@ button:active {
     right: 100px;
 }
 
-.fa-facebook-f,
-.fa-twitter,
-.fa-instagram {
+.footer .icone {
     color: #fff;
     font-size: 40px;
     border: 2px solid #fff;
     border-radius: 50%;
-    width: 40px !important;
+    width: 40px;
     height: 40px;
     padding: 6px;
 }
