@@ -2,6 +2,11 @@ body {
     background: hsl(257, 40%, 49%) url("../images/bg-desktop.svg") no-repeat;
     background-size: cover;
     max-height: 100vh;
+    max-width: 1640px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .header {
@@ -11,60 +16,61 @@ body {
 
 .container {
     display: flex;
-    align-items: center;
+    width: 100%;
     justify-content: center;
+    align-items: center;
     gap: 50px;
-    padding: 0 75px;
+    padding: 0 50px;
 }
 
 .container img {
-    width: 100%;
+    width: 900px;
 }
 
 .content-section {
+    width: 50%;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+    position: relative;
+    bottom: 60px;
     display: flex;
     flex-direction: column;
-    color: #fff;
-    gap: 25px;
-    width: 75%;
-    font-family: 'Open sans', sans-serif;
-    position: relative;
-    bottom: 80px;
-    width: 100%;
+    gap: 20px;
 }
 
-.content-section .title {
+.container .content-section .title {
     font-size: 35px;
-    width: 70%;
+    width: 60%;
     font-weight: 600;
 }
 
-.content-section .text {
-    font-size: 16px;
-    width: 60%;
+.container .content-section .text {
+    width: 70%;
+    line-height: 30px;
 }
 
-button {
+.container .content-section button {
     width: 200px;
     height: 55px;
     border-radius: 30px;
     color: #674baf;
     background-color: #fff;
-    text-decoration: none;
+    border: none;
 }
 
-button:active {
+.container .content-section button:active {
     background-color: #e882e8;
     color: #fff;
 }
 
-.footer {
+.footer ul {
     display: flex;
     gap: 20px;
     position: absolute;
-    bottom: 50px;
-    justify-content: flex-end;
     right: 100px;
+    bottom: 40px;
+    justify-content: flex-end;
+    list-style-type: none;
 }
 
 .footer .icone {
@@ -77,9 +83,7 @@ button:active {
     padding: 6px;
 }
 
-.fa-facebook-f:active,
-.fa-twitter:active,
-.fa-instagram:active {
+.icone:active {
     border-color: #e882e8;
     color: #e882e8;
 }

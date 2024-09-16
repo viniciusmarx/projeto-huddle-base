@@ -1,51 +1,55 @@
-@media(max-width:1400px) {
+@media(max-width:1200px) {
 
     body {
-        background-size: auto;
-    }
-
-    .content-section .title,
-    .content-section .text {
-        width: 100%;
-    }
-
-    button {
-        width: 140px;
-    }
-}
-
-@media(max-width:960px) {
-
-    body {
+        max-width: 900px;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         background-image: url("../images/bg-mobile.svg");
         background-size: cover;
     }
 
+    .header {
+        padding: 0;
+        display: flex;
+    }
+
+    .header img {
+        width: 250px;
+        margin: 0 auto;
+    }
+
     .container {
         flex-direction: column;
+        gap: 100px;
     }
 
     .container img {
-        max-width: 400px;
+        width: 300px;
         margin: 0 30px;
     }
 
-    .content-section {
-        position: fixed;
-        max-width: 400px;
+    .container .content-section {
         align-items: center;
         text-align: center;
         position: relative;
         bottom: 50px;
+        width: 500px;
     }
 
-    .footer {
-        display: flex;
-        justify-content: center;
+    .container .content-section .title {
+        font-size: 27px;
+    }
+
+    .container .content-section .text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .footer ul {
         position: static;
-        margin: 0;
+        justify-content: center;
+        align-items: center;
     }
 
 }
